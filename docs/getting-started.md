@@ -258,7 +258,7 @@ server {
     access_log off;
 
     location /static/ {
-        alias /opt/netbox/netbox/static/;
+        alias /opt/netbox/netbox/project-static/;
     }
 
     location / {
